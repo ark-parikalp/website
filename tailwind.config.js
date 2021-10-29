@@ -1,17 +1,17 @@
 module.exports = {
-  purge: ['./src/**/*.html', './src/**/*.js'],
+  purge: ["./src/**/*.html", "./src/**/*.js"],
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {
       fontFamily: {
-        nunito: ['Nunito'],
+        gilroy: ["Gilroy"],
       },
     },
   },
   variants: {
     extend: {
-      backgroundColor: ['disabled'],
-      cursor: ['disabled'],
+      backgroundColor: ["disabled"],
+      cursor: ["disabled"],
     },
   },
-}
+};
